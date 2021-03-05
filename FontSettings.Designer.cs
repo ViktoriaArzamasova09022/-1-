@@ -86,7 +86,7 @@
             "курсив",
             "полужирный",
             "подчеркивание"});
-            this.comboBox1.Location = new System.Drawing.Point(159, 59);
+            this.comboBox1.Location = new System.Drawing.Point(123, 59);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(138, 28);
             this.comboBox1.TabIndex = 6;
@@ -104,7 +104,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(159, 36);
+            this.label2.Location = new System.Drawing.Point(119, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 20);
             this.label2.TabIndex = 8;
@@ -114,7 +114,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(307, 265);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(86, 33);
             this.button1.TabIndex = 9;
             this.button1.Text = "Ок";
             this.button1.UseVisualStyleBackColor = true;
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 310);
+            this.ClientSize = new System.Drawing.Size(519, 310);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

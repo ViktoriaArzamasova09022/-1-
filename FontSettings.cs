@@ -13,7 +13,9 @@ namespace Блокнот_лабораторная_1_
     public partial class FontSettings : Form
     {
         public int fontSize = 0;
-        public System.Drawing.FontStyle fs = FontStyle.Regular;
+        public FontStyle fs = FontStyle.Regular;
+        public Color fc = Color.Black;
+        
         public FontSettings()
         {
             InitializeComponent();
@@ -45,8 +47,6 @@ namespace Блокнот_лабораторная_1_
                 case "подчеркивание":
                     ExampleText.Font = new Font(ExampleText.Font.FontFamily, int.Parse(comboBox2.SelectedItem.ToString()), FontStyle.Underline);
                     break;
-
-
             }
 
             fs = ExampleText.Font.Style;
@@ -56,5 +56,7 @@ namespace Блокнот_лабораторная_1_
         {
             this.Hide();
         }
+       
+        
     }
 }
